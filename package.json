@@ -1,6 +1,10 @@
 {
   "name": "robofriends",
+<<<<<<< Updated upstream
   "homepage": "http://mikaelbrassard99.github.io/perso-react-app/",
+=======
+  "homepage": "https://MikaelBrassard99.github.io/perso-react-app/",
+>>>>>>> Stashed changes
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
