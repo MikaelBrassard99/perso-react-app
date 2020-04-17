@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/perso-react-app/precache-manifest.c47230617dd3aa18997d786f338f293e.js"
+  "/perso-react-app/precache-manifest.5248cc8354126cda8f48456eef9b6089.js"
 );
 
 self.addEventListener('message', (event) => {
